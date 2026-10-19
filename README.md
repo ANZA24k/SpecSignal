@@ -40,7 +40,7 @@ The fixture builder really runs five safe clamp tests, then bundles the source, 
 
 ## Interface
 
-- Constructor: `specification_json`, `specification_url`. Preserve exact file bytes, including the final newline.
+- Constructor: `specification_json`, `specification_url`. Preserve exact file bytes. The bundled fixture JSON has no trailing newline so Studio text inputs preserve it exactly.
 - Writes: `submit(evidence_url, sha256, byte_length, nonce) -> submission_id`; `evaluate(submission_id)`; `close()`.
 - Views: `get_specification()`, `get_submission(id)`, `get_decision(id)`, `get_history(index)`, `get_state()`. JSON strings keep the ABI simple. History is zero-indexed.
 - Decision hash: SHA-256 of sorted-key, compact, ASCII-escaped JSON of the complete decision **without** `decision_hash`. UTF-8 encoding; no trailing newline. This includes contract address, spec/evidence commitments, submission, transaction timestamp, sequence and predecessor.

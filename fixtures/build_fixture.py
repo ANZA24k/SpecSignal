@@ -56,5 +56,5 @@ if __name__ == "__main__":
     output = "\n".join(line for line in (run.stdout + run.stderr).splitlines() if not line.startswith("Ran 5 tests in"))
     package = {"artifact": SOURCE, "tests": TESTS, "results": output, "notes": "Synthetic bounded-clamp fixture. The fixture builder ran these five unittest methods locally. Validators inspect evidence and do not execute it. No universal or independently authenticated test execution claim."}
     for name, data in (("specification.json", SPEC), ("evidence.json", package)):
-        ROOT.joinpath(name).write_text(json.dumps(data, sort_keys=True, separators=(",", ":"), ensure_ascii=True) + "\n")
+        ROOT.joinpath(name).write_text(json.dumps(data, sort_keys=True, separators=(",", ":"), ensure_ascii=True))
     print(output)
