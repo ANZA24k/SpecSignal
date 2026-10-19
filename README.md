@@ -4,6 +4,10 @@ A standalone GenLayer Intelligent Contract that adjudicates technical artifact c
 
 Creators deploy a contract with a complete specification: mandatory requirements, critical flags, allowed and forbidden deviations, required evidence, and interpretation rules. Anyone can commit a bounded implementation/test/results package and anyone can evaluate it. GenLayer leaders and validators independently retrieve **both** commit-pinned files, check their exact UTF-8 bytes, and inspect source, test coverage and claimed results together. Every normalized finding must agree before deterministic code derives `PASS`, `PARTIAL`, `FAIL`, or `INCONCLUSIVE`.
 
+## Verified Studionet demonstration
+
+**PASS** with all three mandatory requirements satisfied. [Explorer](https://explorer-studio.genlayer.com/address/0xE60523cF6F556F591a78651cbe51c50066aE30B9) confirms deployment, submission, evaluation and closure all FINALIZED / SUCCESS. The demonstration instance is permanently closed. [Live verification](docs/LIVE_VERIFICATION.md) records exact source identity, immutable inputs, validator quorum, decision hash and final state.
+
 ## Why GenLayer is central
 
 Natural-language requirements, materiality, allowed deviations and the strength of test evidence require interpretation. GenLayer performs that interpretation inside consensus; there is no off-chain verdict server or administrator choosing outcomes. Hashes, ownership, timestamps, limits, replay protection, lifecycle and decision hashes are ordinary deterministic code. The custom Equivalence Principle callback re-fetches both documents and repeats the complete assessment, comparing every categorical finding rather than accepting a leader's verdict or merely its schema.

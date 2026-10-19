@@ -14,3 +14,4 @@ jobs:
       - run: genvm-lint check contracts/specsignal.py
       - run: pytest -q
       - run: python fixtures/build_fixture.py && git diff --exit-code fixtures/
+      - run: python scripts/verify_live.py

@@ -1,0 +1,174 @@
+{
+  "state": {
+    "closed": true,
+    "closed_at": "2026-10-19T10:59:02.760625+00:00",
+    "created_at": "2026-10-19T10:54:40.109565+00:00",
+    "evaluated": 1,
+    "owner": "0xe74B0C822c1af78046ca0304b2aa69160c6cc3b8",
+    "specification_hash": "46a747a4a0bd3ace19d5e20efb62d72e956fce869e0c0f130ad4e446c29c3302",
+    "specification_length": 1414,
+    "specification_url": "https://raw.githubusercontent.com/ANZA24k/SpecSignal/12ddcf12e200775319fd9df1276c754ffcdfab21/fixtures/specification.json",
+    "submitted": 1,
+    "version": "specsignal-v1"
+  },
+  "decision": {
+    "assessment": {
+      "report": {
+        "allowed": [
+          "PRESENT"
+        ],
+        "evidence": [
+          "SUPPORTED",
+          "SUPPORTED"
+        ],
+        "forbidden": [
+          "ABSENT"
+        ],
+        "requirements": [
+          "SATISFIED",
+          "SATISFIED",
+          "SATISFIED"
+        ],
+        "test_support": "SUPPORTED",
+        "unlisted": "NONE"
+      }
+    },
+    "contract": "0xE60523cF6F556F591a78651cbe51c50066aE30B9",
+    "decision_hash": "8f2984d6235a2e61fe50bd3fa09db664f5fb3f9ddfc3c5471692844b7656877a",
+    "evaluated_at": "2026-10-19T10:57:08.028815+00:00",
+    "evidence_hash": "cda96514a3793f15419a54e41bdb90e6b8ec1a16206294662c3c0997cbe9a729",
+    "outcome": "PASS",
+    "previous_decision_hash": "",
+    "sequence": 1,
+    "spec_hash": "46a747a4a0bd3ace19d5e20efb62d72e956fce869e0c0f130ad4e446c29c3302",
+    "submission_id": "a7c55146285149dbeb84efc46b823d61f27f79b33b7f2980a5c48b49d9697197",
+    "version": "specsignal-v1"
+  },
+  "history": {
+    "assessment": {
+      "report": {
+        "allowed": [
+          "PRESENT"
+        ],
+        "evidence": [
+          "SUPPORTED",
+          "SUPPORTED"
+        ],
+        "forbidden": [
+          "ABSENT"
+        ],
+        "requirements": [
+          "SATISFIED",
+          "SATISFIED",
+          "SATISFIED"
+        ],
+        "test_support": "SUPPORTED",
+        "unlisted": "NONE"
+      }
+    },
+    "contract": "0xE60523cF6F556F591a78651cbe51c50066aE30B9",
+    "decision_hash": "8f2984d6235a2e61fe50bd3fa09db664f5fb3f9ddfc3c5471692844b7656877a",
+    "evaluated_at": "2026-10-19T10:57:08.028815+00:00",
+    "evidence_hash": "cda96514a3793f15419a54e41bdb90e6b8ec1a16206294662c3c0997cbe9a729",
+    "outcome": "PASS",
+    "previous_decision_hash": "",
+    "sequence": 1,
+    "spec_hash": "46a747a4a0bd3ace19d5e20efb62d72e956fce869e0c0f130ad4e446c29c3302",
+    "submission_id": "a7c55146285149dbeb84efc46b823d61f27f79b33b7f2980a5c48b49d9697197",
+    "version": "specsignal-v1"
+  },
+  "deployed_commit": "12ddcf12e200775319fd9df1276c754ffcdfab21",
+  "contract_address": "0xE60523cF6F556F591a78651cbe51c50066aE30B9",
+  "submission_id": "a7c55146285149dbeb84efc46b823d61f27f79b33b7f2980a5c48b49d9697197",
+  "readback_state": "Explorer Read Contract after all four transactions finalized",
+  "source_sha256": "371eda70e8e8229e4ff55688fd83786b08a24eae111056dd63603ba288d14f70",
+  "source_readback": {
+    "method": "Explorer Contract / Code complete textContent",
+    "exact_match": true,
+    "byte_length": 14879,
+    "sha256": "371eda70e8e8229e4ff55688fd83786b08a24eae111056dd63603ba288d14f70"
+  },
+  "files": {
+    "fixtures/specification.json": {
+      "url": "https://raw.githubusercontent.com/ANZA24k/SpecSignal/12ddcf12e200775319fd9df1276c754ffcdfab21/fixtures/specification.json",
+      "sha256": "46a747a4a0bd3ace19d5e20efb62d72e956fce869e0c0f130ad4e446c29c3302",
+      "byte_length": 1414
+    },
+    "fixtures/evidence.json": {
+      "url": "https://raw.githubusercontent.com/ANZA24k/SpecSignal/12ddcf12e200775319fd9df1276c754ffcdfab21/fixtures/evidence.json",
+      "sha256": "cda96514a3793f15419a54e41bdb90e6b8ec1a16206294662c3c0997cbe9a729",
+      "byte_length": 1344
+    }
+  },
+  "transactions": {
+    "deploy": {
+      "hash": "0xa8050eb36de809ecaab11f11abd8f48dacf7b221ad60b64e09fd44138386de07",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "result_name": "MAJORITY_AGREE",
+      "leader_only": false,
+      "execution_mode": "Normal (Full Consensus)",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xa8050eb36de809ecaab11f11abd8f48dacf7b221ad60b64e09fd44138386de07"
+    },
+    "submit": {
+      "hash": "0xa7bf9e2a2538c882bced36e73258f60043fec7e81775f695e469601526b524ac",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "result_name": "MAJORITY_AGREE",
+      "leader_only": false,
+      "execution_mode": "Normal (Full Consensus)",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xa7bf9e2a2538c882bced36e73258f60043fec7e81775f695e469601526b524ac"
+    },
+    "evaluate": {
+      "hash": "0xd897195c48bdfeda171ccfe04ca2769bc5afff6e14fa5abd81a92c0037812637",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "result_name": "MAJORITY_AGREE",
+      "leader_only": false,
+      "execution_mode": "Normal (Full Consensus)",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xd897195c48bdfeda171ccfe04ca2769bc5afff6e14fa5abd81a92c0037812637"
+    },
+    "close": {
+      "hash": "0x096ec68f1d4c3eea970d271670effbaa7b8e7d82505c0a7efec96a2abdcea571",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "result_name": "MAJORITY_AGREE",
+      "leader_only": false,
+      "execution_mode": "Normal (Full Consensus)",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x096ec68f1d4c3eea970d271670effbaa7b8e7d82505c0a7efec96a2abdcea571"
+    }
+  },
+  "evaluation_consensus": {
+    "agree": [
+      "0x0B50B270Eba5D9B780272C4Cf4720260177e761D",
+      "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21",
+      "0x892C437da9b9CA0b6017B6f046F58E3526B46ec6"
+    ],
+    "cancelled_after_quorum": [
+      "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb",
+      "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9"
+    ],
+    "note": "Studio recorded cancelled validators as ERROR / Idle after quorum, not disagreeing votes."
+  },
+  "validation": {
+    "direct_tests": 38,
+    "direct_tests_result": "passed",
+    "fixture_tests": 5,
+    "genvm_lint": "passed (3 checks)",
+    "sdk_validation": "passed (8 methods: 5 view, 3 write)",
+    "ci_url": "https://github.com/ANZA24k/SpecSignal/actions/runs/39240743671",
+    "ci_conclusion": "success"
+  },
+  "specification_readback_exact": true,
+  "submission": {
+    "byte_length": 1344,
+    "contract": "0xE60523cF6F556F591a78651cbe51c50066aE30B9",
+    "nonce": "studionet-clamp-v1",
+    "sha256": "cda96514a3793f15419a54e41bdb90e6b8ec1a16206294662c3c0997cbe9a729",
+    "spec_hash": "46a747a4a0bd3ace19d5e20efb62d72e956fce869e0c0f130ad4e446c29c3302",
+    "submitted_at": "2026-10-19T10:55:45.354644+00:00",
+    "submitter": "0xe74B0C822c1af78046ca0304b2aa69160c6cc3b8",
+    "url": "https://raw.githubusercontent.com/ANZA24k/SpecSignal/12ddcf12e200775319fd9df1276c754ffcdfab21/fixtures/evidence.json",
+    "version": "specsignal-v1"
+  }
+}
